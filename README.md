@@ -2,6 +2,8 @@
 
 Link to deployed website: https://beergame-1b34a.web.app/
 
+The beer game is based on supply chain and involves 4 players where each player represents one of the four stages in the chain i.e the retailer, the manufacturer, the wholesaler, the consumer. The goal of this game is to teach students who use this software about The Bullwhip Efect which is a supply chain phenomenon describing how small fluctuations in demand at the retail level can cause progressively larger fluctuations in demand at the wholesale, distributor, manufacturer and raw material supplier levels.
+
 Architechture Notes
 ------------------
 * The backend is written in Python and uses the Flask server
