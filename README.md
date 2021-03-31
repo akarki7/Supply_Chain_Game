@@ -1,24 +1,4 @@
-# se-01-team-24
-SE Sprint 01, Team 24
-
-We chose a clean, minimal look for the design of the game. Keeping things simple and 
-easy to find. In this first sprint we made a working homepage with a navigation menu 
-that takes you to login and register pages. From the login page you can select your role 
-as an Instructor or as Player. We made separate login pages for each role. 
-All pages were linked using Django, created using HTML and styled with CSS and JavaScript.
-
-Forms Folder - Html forms
-Static Folder - images and Css file
-
-Order: Index.html
-       stylesheet.css
-       Role.html
-       instructorlogin.html
-       studentlogin.html
-       signup.html
-       
-       
-# se-02-team-24 (Aabishkar and Aoge)
+# Beer Game
 
 Architechture Notes
 ------------------
@@ -55,8 +35,6 @@ Progress report:
 - [x] Setup Flask Server
 - [x] Setup SQL in db_migrations/createtables.sql
 - [x] Setup database in SQLITE3 for testing purposes
-- [x] Setup database in CLAMV using SQL
-- [ ] Connect CLAMV database to website -> CLAMV did not connect to website because it says the user is not authorized
 - [x] Converted old html pages to REACT JS and did more styling to make the page look better
 - [x] Added some new pages (Home page, game page after succesfull login) to frontend
 - [x] Connect frontend to flask and flask to database such that the frontend and databases are connected and ready
