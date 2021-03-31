@@ -19,7 +19,7 @@ Steps to setup & start the backend server
 Steps to setup & start the frontend server
 ------------------------------------------
 * Make sure you have `node.js` installed. 
-* In /frontend/web install all the required packages using `npm install`.
+* In /frontend install all the required packages using `npm install`.
 * Run `npm start` to run in the development mode. 
 
 Steps to run the unittests
