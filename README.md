@@ -1,5 +1,7 @@
 # Beer Game
 
+Link to deployed website: https://beergame-1b34a.web.app/
+
 Architechture Notes
 ------------------
 * The backend is written in Python and uses the Flask server
