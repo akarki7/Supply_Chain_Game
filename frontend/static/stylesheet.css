@@ -1,0 +1,134 @@
+body, html {
+    height: 100%;
+    margin: none;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+#navbar a:hover {
+    /*background-color: black;
+    color: white;*/
+    text-decoration: underline;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: black;
+    color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about{
+    background-color: black;
+    height: 85%;
+    color: whitesmoke;
+    font-family: sans-serif;
+    line-height: 32px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15%;
+}
+
+.logo {
+    padding-top: 3%;
+}
+
+.logo img {
+    height: 300px;
+}
+
+.footer {
+    padding-top: 2%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    align-content: center;
+    font-family: monospace;
+    background-color: white;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.login {
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+.login input {
+    text-align: center;
+    border: solid 1px grey;
+    font-size: 18px;
+    outline: none;
+    padding: 1%;
+    width: 20%;
+}
+
+.login input:focus {
+    border: solid 2px black;
+}
+
+.login button {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    padding: 1%;
+    width: 22%;
+    margin-top: 2%;
+}
+
+.login form {
+    text-align: center;
+}
